@@ -3,7 +3,10 @@ package com.nowcoder.community.entity;
 import java.util.Date;
 
 public class User {
-
+    /**
+     * type:   '0-普通用户; 1-超级管理员; 2-版主;'
+     * status: '0-未激活; 1-已激活;',
+     */
     private int id;
     private String username;
     private String password;
