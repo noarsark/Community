@@ -101,4 +101,11 @@ public class MapperTests {
         System.out.println(loginTicket);
     }
 
+    @Test
+    public void testSuffix() {
+        String name = "ab.c.jepg";
+        String suffix = name.substring(name.lastIndexOf("."));
+        System.out.println(suffix);
+    }
+
 }
