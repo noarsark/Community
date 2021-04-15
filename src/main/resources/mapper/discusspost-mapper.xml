@@ -34,6 +34,6 @@
 
     <insert id="insertDisscussPost" parameterType="DiscussPost">
         insert into discuss_post (<include refid="insertFields" />)
-        values (#{user_id},#{title},#{content},#{type},#{status},#{createTime},#{commentCount},#{score})
+        values (#{userId},#{title},#{content},#{type},#{status},#{createTime},#{commentCount},#{score})
     </insert>
 </mapper>
