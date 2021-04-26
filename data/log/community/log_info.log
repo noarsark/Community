@@ -1,22 +1,27 @@
-2021-04-20 21:27:41,896 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on Lenovo-PC with PID 8072 (D:\CSLearning\ideaProjects\community\target\classes started by Noahs_Ark in D:\CSLearning\ideaProjects\community)
-2021-04-20 21:27:41,911 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
-2021-04-20 21:27:41,974 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-04-20 21:27:41,974 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-04-20 21:27:43,435 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
-2021-04-20 21:27:43,450 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2021-04-20 21:27:43,466 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2021-04-20 21:27:43,466 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
-2021-04-20 21:27:43,560 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2021-04-20 21:27:43,560 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1586 ms
-2021-04-20 21:27:44,153 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-20 21:27:44,263 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
-2021-04-20 21:27:44,372 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
-2021-04-20 21:27:44,403 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2021-04-20 21:27:44,450 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
-2021-04-20 21:27:44,450 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 3.179 seconds (JVM running for 5.135)
-2021-04-20 21:28:27,007 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-04-20 21:28:27,008 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
-2021-04-20 21:28:27,018 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 10 ms
-2021-04-20 21:28:27,090 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2021-04-20 21:29:12,467 INFO [http-nio-8080-exec-3] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2021-04-20 21:29:12,503 INFO [http-nio-8080-exec-3] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-04-26 20:21:46,997 INFO [main] c.n.c.TransactionTests [StartupInfoLogger.java:50] Starting TransactionTests on Lenovo-PC with PID 7096 (started by Noahs_Ark in D:\CSLearning\ideaProjects\community)
+2021-04-26 20:21:47,028 INFO [main] c.n.c.TransactionTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2021-04-26 20:21:51,284 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-26 20:21:51,558 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2021-04-26 20:21:51,855 INFO [main] c.n.c.TransactionTests [StartupInfoLogger.java:59] Started TransactionTests in 5.858 seconds (JVM running for 7.872)
+2021-04-26 20:21:52,589 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-04-26 20:21:53,904 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-26 20:24:15,179 INFO [main] c.n.c.TransactionTests [StartupInfoLogger.java:50] Starting TransactionTests on Lenovo-PC with PID 10520 (started by Noahs_Ark in D:\CSLearning\ideaProjects\community)
+2021-04-26 20:24:15,179 INFO [main] c.n.c.TransactionTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2021-04-26 20:24:19,342 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-26 20:24:19,623 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2021-04-26 20:24:19,920 INFO [main] c.n.c.TransactionTests [StartupInfoLogger.java:59] Started TransactionTests in 5.662 seconds (JVM running for 7.008)
+2021-04-26 20:24:20,498 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-04-26 20:24:20,704 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-04-26 20:24:21,220 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-26 20:24:21,220 INFO [Thread-2] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-04-26 20:24:21,220 INFO [Thread-2] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-04-26 20:28:50,746 INFO [main] c.n.c.TransactionTests [StartupInfoLogger.java:50] Starting TransactionTests on Lenovo-PC with PID 11112 (started by Noahs_Ark in D:\CSLearning\ideaProjects\community)
+2021-04-26 20:28:50,746 INFO [main] c.n.c.TransactionTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2021-04-26 20:28:54,328 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-26 20:28:54,671 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2021-04-26 20:28:54,953 INFO [main] c.n.c.TransactionTests [StartupInfoLogger.java:59] Started TransactionTests in 5.161 seconds (JVM running for 6.568)
+2021-04-26 20:28:55,500 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-04-26 20:28:55,719 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-04-26 20:28:56,172 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-26 20:28:56,172 INFO [Thread-2] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-04-26 20:28:56,188 INFO [Thread-2] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
