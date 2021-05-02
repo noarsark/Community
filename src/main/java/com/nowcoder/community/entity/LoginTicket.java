@@ -3,7 +3,8 @@ package com.nowcoder.community.entity;
 import java.util.Date;
 
 /**
- *
+ *  登录凭证
+ *  status  '0-有效; 1-无效;',
  * @author Noahs_Ark
  */
 public class LoginTicket {

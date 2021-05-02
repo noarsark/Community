@@ -2,6 +2,12 @@ package com.nowcoder.community.entity;
 
 import java.util.Date;
 
+/**
+ * 帖子
+ * type    '0-普通; 1-置顶;',
+ * status  '0-正常; 1-精华; 2-拉黑;',
+ * @author Noahs_Ark
+ */
 public class DiscussPost {
 
     private int id;
