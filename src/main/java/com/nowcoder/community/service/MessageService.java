@@ -18,7 +18,7 @@ public class MessageService {
     }
 
     public int findConversationCount(int userId) {
-        return messageMapper.selectConversionCount(userId);
+        return messageMapper.selectConversationCount(userId);
     }
 
     public List<Message> findLetters(String conversationId, int offset, int limit) {

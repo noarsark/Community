@@ -7,7 +7,7 @@
         id, from_id, to_id, conversation_id, content, status, create_time
     </sql>
 
-    <select id="selectConversions" resultType="Message">
+    <select id="selectConversations" resultType="Message">
         select
         <include refid="selectFields"></include>
         from message
@@ -22,7 +22,7 @@
         limit #{offset}, #{limit}
     </select>
 
-    <select id="selectConversionCount" resultType="int">
+    <select id="selectConversationCount" resultType="int">
         select count(m.maxid)
         from (select max(id) as maxid
               from message
@@ -56,12 +56,10 @@
         select count(id)
         from message
         where status = 0
-        and from != 1
+        and from_id != 1
         and to_id = #{userId}
-        <if test="conversation_id != null">
+        <if test="conversationId != null">
             and conversation_id = #{conversationId}
         </if>
     </select>
-
-
 </mapper>

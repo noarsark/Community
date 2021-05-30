@@ -24,7 +24,7 @@ public interface MessageMapper {
      * @param userId
      * @return
      */
-    int selectConversionCount(int userId);
+    int selectConversationCount(int userId);
 
 
     /**
@@ -38,17 +38,17 @@ public interface MessageMapper {
 
     /**
      * 查询某个会话所包含的私信数量
-     * @param conversionId
+     * @param conversationId
      * @return
      */
-    int selectLetterCount(String conversionId);
+    int selectLetterCount(String conversationId);
 
     /**
      * 查询未读私信的数量
      * @param userId
-     * @param conversionId
+     * @param conversationId
      * @return
      */
-    int selectLetterUnreadCount(int userId, String conversionId);
+    int selectLetterUnreadCount(int userId, String conversationId);
 
 }

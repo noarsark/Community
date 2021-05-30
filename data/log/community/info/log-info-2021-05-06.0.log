@@ -1,0 +1,42 @@
+2021-05-06 21:25:38,125 INFO [main] c.n.c.MapperTests [StartupInfoLogger.java:50] Starting MapperTests on Lenovo-PC with PID 8464 (started by Noahs_Ark in D:\CSLearning\ideaProjects\community)
+2021-05-06 21:25:38,134 INFO [main] c.n.c.MapperTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2021-05-06 21:25:44,167 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-06 21:25:44,532 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2021-05-06 21:25:44,892 INFO [main] c.n.c.MapperTests [StartupInfoLogger.java:59] Started MapperTests in 7.724 seconds (JVM running for 9.848)
+2021-05-06 21:25:45,611 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-06 21:27:05,475 INFO [main] c.n.c.MapperTests [StartupInfoLogger.java:50] Starting MapperTests on Lenovo-PC with PID 6164 (started by Noahs_Ark in D:\CSLearning\ideaProjects\community)
+2021-05-06 21:27:05,478 INFO [main] c.n.c.MapperTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2021-05-06 21:27:09,395 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-06 21:27:09,703 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2021-05-06 21:27:10,013 INFO [main] c.n.c.MapperTests [StartupInfoLogger.java:59] Started MapperTests in 5.595 seconds (JVM running for 7.188)
+2021-05-06 21:27:10,577 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-06 21:31:10,609 INFO [main] c.n.c.MapperTests [StartupInfoLogger.java:50] Starting MapperTests on Lenovo-PC with PID 11444 (started by Noahs_Ark in D:\CSLearning\ideaProjects\community)
+2021-05-06 21:31:10,613 INFO [main] c.n.c.MapperTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2021-05-06 21:31:15,124 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-06 21:31:15,411 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2021-05-06 21:31:15,704 INFO [main] c.n.c.MapperTests [StartupInfoLogger.java:59] Started MapperTests in 5.901 seconds (JVM running for 7.362)
+2021-05-06 21:31:16,287 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-05-06 21:31:16,594 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-05-06 21:31:16,850 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-06 21:31:16,856 INFO [Thread-2] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-05-06 21:31:16,879 INFO [Thread-2] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-05-06 21:34:44,569 INFO [main] c.n.c.MapperTests [StartupInfoLogger.java:50] Starting MapperTests on Lenovo-PC with PID 9280 (started by Noahs_Ark in D:\CSLearning\ideaProjects\community)
+2021-05-06 21:34:44,573 INFO [main] c.n.c.MapperTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2021-05-06 21:34:48,692 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-06 21:34:48,975 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2021-05-06 21:34:49,276 INFO [main] c.n.c.MapperTests [StartupInfoLogger.java:59] Started MapperTests in 5.636 seconds (JVM running for 7.174)
+2021-05-06 21:34:49,881 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-05-06 21:34:50,112 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-05-06 21:34:50,342 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-06 21:34:50,349 INFO [Thread-2] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-05-06 21:34:50,368 INFO [Thread-2] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-05-06 22:01:54,307 INFO [main] c.n.c.MapperTests [StartupInfoLogger.java:50] Starting MapperTests on Lenovo-PC with PID 7200 (started by Noahs_Ark in D:\CSLearning\ideaProjects\community)
+2021-05-06 22:01:54,310 INFO [main] c.n.c.MapperTests [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2021-05-06 22:01:58,524 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-06 22:01:58,838 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2021-05-06 22:01:59,215 INFO [main] c.n.c.MapperTests [StartupInfoLogger.java:59] Started MapperTests in 5.987 seconds (JVM running for 7.413)
+2021-05-06 22:01:59,828 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-05-06 22:02:00,066 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-05-06 22:02:00,266 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-06 22:02:00,271 INFO [Thread-2] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-05-06 22:02:00,294 INFO [Thread-2] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
