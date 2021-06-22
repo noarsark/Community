@@ -123,7 +123,7 @@ public class MessageController {
     @ResponseBody
     public String sendLetter(String toName, String content) {
         User target = userService.findUserByName(toName);
-        if (target != null) {
+        if (target == null) {
             return CommunityUtil.getJSONString(1, "目标用户不存在!");
         }
 

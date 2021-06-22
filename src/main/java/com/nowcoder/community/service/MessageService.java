@@ -14,7 +14,7 @@ public class MessageService {
 
     @Autowired
     private MessageMapper messageMapper;
-
+    @Autowired
     private SensitiveFilter sensitiveFilter;
 
     public List<Message> findConversations(int userId, int offset, int limit) {
