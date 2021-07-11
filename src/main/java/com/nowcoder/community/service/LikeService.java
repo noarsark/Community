@@ -19,7 +19,7 @@ public class LikeService {
      */
     public void like(int userId, int entityType, int entityId) {
         String entityLikeKey = RedisKeyUtil.getEntityLikeKey(entityType, entityId);
-        boolean isMember = redisTemplate.opsForSet().isMember(entityType, userId);
+        boolean isMember = redisTemplate.opsForSet().isMember(entityLikeKey, userId);
         if (isMember) {
             redisTemplate.opsForSet().remove(entityLikeKey, userId);
         } else {
