@@ -24,10 +24,15 @@ public class LikeController {
 
     @RequestMapping(path = "/like", method = RequestMethod.POST)
     @ResponseBody
-    public String like(int entityType, int entityId) {
+    public String like(int entityType, int entityId, int entityUserId) {
         User user = hostHolder.getUser();
+
+        // 自己加的判断
+        if (user == null) {
+            return CommunityUtil.getJSONString(-1, "请登录!");
+        }
         // 点赞
-        likeService.like(user.getId(), entityType, entityId);
+        likeService.like(user.getId(), entityType, entityId, entityUserId);
         // 数量
         long likeCount = likeService.findEntityLikeCount(entityType, entityId);
         // 状态
