@@ -4013,3 +4013,6 @@ org.springframework.expression.spel.SpelEvaluationException: EL1008E: Property o
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:835)
+2021-11-21 13:11:00,454 ERROR [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:843] [Consumer clientId=consumer-2, groupId=community-consumer-group] Offset commit failed on partition comment-0 at offset 1: The coordinator is not aware of this member.
+2021-11-21 13:24:49,272 ERROR [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:843] [Consumer clientId=consumer-2, groupId=community-consumer-group] Offset commit failed on partition comment-0 at offset 1: The coordinator is not aware of this member.
+2021-11-21 14:08:19,872 ERROR [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:843] [Consumer clientId=consumer-2, groupId=community-consumer-group] Offset commit failed on partition comment-0 at offset 1: The coordinator is not aware of this member.
