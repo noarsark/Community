@@ -134,7 +134,5 @@ public class MapperTests {
 
         count = messageMapper.selectLetterUnreadCount(131, "111_131");
         System.out.println(count);
-
     }
-
 }
