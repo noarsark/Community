@@ -15,6 +15,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.*;
 
@@ -41,6 +42,7 @@ public class DiscussPostController implements CommunityConstant {
     private EventProducer eventProducer;
 
     @RequestMapping(path = "/add", method = RequestMethod.POST)
+    @ResponseBody
     public String addDiscussPost(String title, String content) {
         User user = hostHolder.getUser();
         if (user == null) {
