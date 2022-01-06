@@ -582,3 +582,4 @@
 2022-01-06 08:35:10,928 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-6, groupId=community-consumer-group] Connection to node 0 could not be established. Broker may not be available.
 2022-01-06 08:37:25,832 WARN [http-nio-8080-exec-1] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [248] milliseconds.
 2022-01-06 19:08:30,549 WARN [http-nio-8080-exec-10] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [275] milliseconds.
+2022-01-06 21:05:21,520 WARN [http-nio-8080-exec-10] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [231] milliseconds.
