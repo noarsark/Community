@@ -83,6 +83,7 @@ public class UserService implements CommunityConstant {
         u = userMapper.selectByEmail(user.getEmail());
         if (u != null) {
             map.put("emailMsg", "该邮箱已被注册!");
+            return map;
         }
 
         // 注册用户
@@ -119,7 +120,7 @@ public class UserService implements CommunityConstant {
         }
     }
 
-    public Map<String, Object> login(String username, String password, int expiredSeconds) {
+    public Map<String, Object> login(String username, String password, long expiredSeconds) {
         Map<String, Object> map = new HashMap<>();
 
         // 空值处理
@@ -135,7 +136,7 @@ public class UserService implements CommunityConstant {
         // 验证账号
         User user = userMapper.selectByName(username);
         if (user == null) {
-            map.put("usernameMsg", "该账号不存在");
+            map.put("usernameMsg", "该账号不存在!");
             return map;
         }
 
@@ -204,7 +205,7 @@ public class UserService implements CommunityConstant {
         redisTemplate.opsForValue().set(redisKey, user, 3600, TimeUnit.SECONDS);
         return user;
     }
-    // 3.数据变更时清楚缓存数据
+    // 3.数据变更时清除缓存数据
     private void clearCache(int userId) {
         String redisKey = RedisKeyUtil.getUserKey(userId);
         redisTemplate.delete(redisKey);

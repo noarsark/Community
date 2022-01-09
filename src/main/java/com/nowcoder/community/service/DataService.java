@@ -24,7 +24,7 @@ public class DataService {
     private SimpleDateFormat df = new SimpleDateFormat("yyyyMMdd");
 
     // 将指定的ip计入UV
-    public void recordUv(String ip) {
+    public void recordUV(String ip) {
         String redisKey = RedisKeyUtil.getUVKey(df.format(new Date()));
         redisTemplate.opsForHyperLogLog().add(redisKey, ip);
     }

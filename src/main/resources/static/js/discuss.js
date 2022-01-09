@@ -17,8 +17,7 @@ function like(btn, entityType, entityId, entityUserId, postId) {
                 alert(data.msg);
             }
         }
-
-    )
+    );
 }
 
 // 置顶

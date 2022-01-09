@@ -36,7 +36,7 @@ public class EventConsumer implements CommunityConstant {
     @KafkaListener(topics = {TOPIC_COMMENT, TOPIC_LIKE, TOPIC_FOLLOW})
     public void handleCommentMessage(ConsumerRecord record) {
         if (record == null || record.value() == null) {
-            logger.error("消息的内容为空！");
+            logger.error("消息的内容为空!");
             return;
         }
         Event event = JSONObject.parseObject(record.value().toString(), Event.class);

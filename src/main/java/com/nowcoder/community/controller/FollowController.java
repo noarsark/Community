@@ -51,7 +51,7 @@ public class FollowController implements CommunityConstant {
                 .setEntityUserId(entityId);
         eventProducer.fireEvent(event);
 
-        return CommunityUtil.getJSONString(0, "已关注！");
+        return CommunityUtil.getJSONString(0, "已关注!");
     }
 
 
@@ -62,7 +62,7 @@ public class FollowController implements CommunityConstant {
 
         followService.unfollow(user.getId(), entityType, entityId);
 
-        return CommunityUtil.getJSONString(0, "已取消关注！");
+        return CommunityUtil.getJSONString(0, "已取消关注!");
     }
 
     @RequestMapping(path = "/followees/{userId}", method = RequestMethod.GET)

@@ -11,7 +11,7 @@ import org.springframework.scheduling.quartz.SimpleTriggerFactoryBean;
  * 配置 -> 数据库 -> 调用
  */
 @Configuration
-public class quartzConfig {
+public class QuartzConfig {
 
     // FactoryBean可简化Bean的实例化过程：
     // 1.通过FactoryBean封装Bean的实例化过程.

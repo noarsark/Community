@@ -23,7 +23,7 @@ public class DataInterceptor implements HandlerInterceptor {
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         // 统计UV
         String ip = request.getRemoteHost();
-        dataService.recordUv(ip);
+        dataService.recordUV(ip);
 
         // 统计DAU
         User user = hostHolder.getUser();

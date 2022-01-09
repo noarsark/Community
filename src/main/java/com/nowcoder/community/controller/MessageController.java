@@ -32,6 +32,12 @@ public class MessageController implements CommunityConstant {
     @Autowired
     private UserService userService;
 
+    /**
+     * 私信列表
+     * @param model
+     * @param page
+     * @return
+     */
     @RequestMapping(path = "/letter/list", method = RequestMethod.GET)
     public String getLetterList(Model model, Page page) {
         User user = hostHolder.getUser();
@@ -66,7 +72,7 @@ public class MessageController implements CommunityConstant {
         return "/site/letter";
     }
 
-    @RequestMapping(path = "/letter/detail/{conversationId}")
+    @RequestMapping(path = "/letter/detail/{conversationId}", method = RequestMethod.GET)
     public String getLetterDetail(@PathVariable("conversationId") String conversationId, Page page, Model model) {
         // 分页信息
         page.setLimit(5);
@@ -238,6 +244,7 @@ public class MessageController implements CommunityConstant {
                 Map<String, Object> map = new HashMap<>();
                 // 通知
                 map.put("notice", notice);
+                // 内容
                 String content = HtmlUtils.htmlUnescape(notice.getContent());
                 Map<String, Object> data = JSONObject.parseObject(content, HashMap.class);
                 map.put("user", userService.findUserById((Integer) data.get("userId")));

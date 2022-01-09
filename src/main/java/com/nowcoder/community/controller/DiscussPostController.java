@@ -97,7 +97,7 @@ public class DiscussPostController implements CommunityConstant {
                 ENTITY_TYPE_POST, post.getId(), page.getOffset(), page.getLimit());
         // 评论VO列表
         List<Map<String, Object>> commentVoList = new ArrayList<>();
-        if (commentVoList != null) {
+        if (commentList != null) {
             for (Comment comment : commentList) {
                 // 评论VO
                 Map<String, Object> commentVo = new HashMap<>();
@@ -180,7 +180,7 @@ public class DiscussPostController implements CommunityConstant {
      */
     @RequestMapping(path = "/wonderful", method = RequestMethod.POST)
     @ResponseBody
-    public String setWonderfu(int id) {
+    public String setWonderful(int id) {
         discussPostService.updateStatus(id, 1);
 
         // 触发发帖事件

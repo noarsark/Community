@@ -62,7 +62,7 @@ public class SensitiveFilter {
                 subNode = new TrieNode();
                 tempNode.addSubNode(c, subNode);
             }
-            // 指向子节点, 进入下一路循环
+            // 指向子节点, 进入下一轮循环
             tempNode = subNode;
 
             // 设置结束标识

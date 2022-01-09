@@ -16,7 +16,7 @@ public interface LoginTicketMapper {
             "insert into login_ticket (user_id, ticket, status, expired) ",
             "values(#{userId},#{ticket},#{status},#{expired})"
     })
-    @Options(useGeneratedKeys = true, keyColumn = "id")
+    @Options(useGeneratedKeys = true, keyProperty = "id")
     int insertLoginTicket(LoginTicket loginTicket);
 
     @Select({"select id,user_id,ticket,status,expired ",

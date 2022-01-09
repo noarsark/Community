@@ -33,10 +33,11 @@ public class LikeController implements CommunityConstant {
     public String like(int entityType, int entityId, int entityUserId, int postId) {
         User user = hostHolder.getUser();
 
-        // 自己加的判断
+        /*// 自己加的判断
         if (user == null) {
             return CommunityUtil.getJSONString(-1, "请登录!");
-        }
+        }*/
+
         // 点赞
         likeService.like(user.getId(), entityType, entityId, entityUserId);
         // 数量

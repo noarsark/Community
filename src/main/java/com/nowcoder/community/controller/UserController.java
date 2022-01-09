@@ -61,7 +61,7 @@ public class UserController implements CommunityConstant {
 
     @LoginRequired
     @RequestMapping(path = "/upload", method = RequestMethod.POST)
-    public String uploadPath(MultipartFile headerImage, Model model) {
+    public String uploadHeader(MultipartFile headerImage, Model model) {
         if (headerImage == null) {
             model.addAttribute("error", "您还没有选择图片!");
             return "/site/setting";
@@ -78,6 +78,7 @@ public class UserController implements CommunityConstant {
         // 确定文件存放的路径
         File dest = new File(uploadPath + "/" + fileName);
         try {
+            // 存储文件
             headerImage.transferTo(dest);
         } catch (IOException e) {
             logger.error("上传文件失败: " + e.getMessage());
@@ -87,8 +88,8 @@ public class UserController implements CommunityConstant {
         // 更新当前用户的头像的路径(web访问路径)
         // http://localhost:8080/community/user/header/xxx.png
         User user = hostHolder.getUser();
-        String headUrl = domain + contextPath + "/user/header/" + fileName;
-        userService.updateHeader(user.getId(), headUrl);
+        String headerUrl = domain + contextPath + "/user/header/" + fileName;
+        userService.updateHeader(user.getId(), headerUrl);
 
         return "redirect:/index";
     }
@@ -125,7 +126,7 @@ public class UserController implements CommunityConstant {
     public String getProfilePage(@PathVariable("userId") int userId, Model model) {
         User user = userService.findUserById(userId);
         if (user == null) {
-            throw new RuntimeException("该用户不存在");
+            throw new RuntimeException("该用户不存在!");
         }
 
         // 用户

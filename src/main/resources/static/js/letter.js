@@ -17,7 +17,7 @@ function send_letter() {
 		CONTEXT_PATH + "/letter/send",
 		{"toName":toName, "content":content},
 		function (data) {
-			console.log("%o",data);
+			// console.log("%o",data);
 			data = $.parseJSON(data);
 			if(data.code == 0) {
 				$("#hintBody").text("发送成功");

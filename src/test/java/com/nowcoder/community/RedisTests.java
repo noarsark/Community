@@ -115,7 +115,7 @@ public class RedisTests {
         Object result = redisTemplate.execute(new SessionCallback() {
             @Override
             public Object execute(RedisOperations redisOperations) throws DataAccessException {
-                String redisKey = "text:tx";
+                String redisKey = "test:tx";
 
                 // 启用事务
                 redisOperations.multi();
