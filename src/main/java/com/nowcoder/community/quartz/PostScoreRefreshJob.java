@@ -90,7 +90,7 @@ public class PostScoreRefreshJob implements Job, CommunityConstant {
 
         // 更新帖子分数
         discussPostService.updateScore(postId, score);
-        // 同步搜索数据
+        // 同步搜索数据, 必须要重新set更新score分数, 否则es无法更新score
         post.setScore(score);
         elasticSearchService.saveDiscussPost(post);
     }
